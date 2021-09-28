@@ -11,7 +11,7 @@ public class Ex30_Main
             for(int columns=0;columns<=11;columns++)
             {
                 int result=multiplication_calc(rows+1,columns+1);
-                System.out.print((result)+"\t");
+                System.out.printf("%4d",result);
             }
             System.out.print("\n");
         }
