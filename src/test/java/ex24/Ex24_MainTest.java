@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class AppTest
+class Ex24_MainTest
 {
 
     @Test
@@ -13,7 +13,7 @@ class AppTest
         boolean ans=true;
         boolean val;
 
-        App a=new App();
+        Ex24_Main a=new Ex24_Main();
 
         val=a.isAnagram("note","tone");
 
@@ -26,7 +26,7 @@ class AppTest
     {
         boolean val;
 
-        App a=new App();
+        Ex24_Main a=new Ex24_Main();
 
         val=a.isAnagram("doge","tone");
 
@@ -39,7 +39,7 @@ class AppTest
     {
         boolean val;
 
-        App a=new App();
+        Ex24_Main a=new Ex24_Main();
 
         val=a.isAnagram("cool","cooler");
 

@@ -9,7 +9,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 
-public class App
+public class Ex24_Main
 {
     public static void main( String[] args )
     {
@@ -56,3 +56,4 @@ public class App
 
     }
 }
+
